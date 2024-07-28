@@ -83,7 +83,38 @@
 .project-section .card{
     margin-bottom: 2.5rem;
 } 
+#pic{
+  width: 60%;
+  height:30%;
+padding: 1rem;
 
+}
+#btn1{
+  width: 20vw;
+}
+#btn2{
+  width: 20vw;
+}
+
+#btn3{
+width: 20vw;
+}
+
+#btn4{
+  width: 20vw;
+}
+#message{
+  width: 30vw;
+  margin-right: 10%;
+  
+}
+.row .project-cards{
+align-self: center;
+
+}
+.carousel-item{
+  width: 100%;
+}
 
 
 /*Footer section*/
