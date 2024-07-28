@@ -15,3 +15,9 @@ navBar.forEach(function (a) {
     navCollapse.classList.remove("show");
   })
 });
+
+//year//
+const d = new Date();
+let year = d.getFullYear();
+document.getElementById("demo").innerHTML = year;
+

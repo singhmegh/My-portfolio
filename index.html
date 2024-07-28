@@ -4,7 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>My Portfolio</title>
-<!--Bootstrap-->
+    <!--Favicon-->
+    <link rel="icon" href="images/m4.jpg" type="image/x-icon" />
+
+    <!--Bootstrap-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -24,6 +27,7 @@
     <nav class="navbar navbar-expand-lg navigation-wrap">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Myportfolio</a>
+
         <button
           class="navbar-toggler"
           type="button"
@@ -48,7 +52,7 @@
               <a class="nav-link" href="#achievement">Achievements</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Contact">Contact Us</a>
+              <a class="nav-link" href="#contact">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -87,7 +91,7 @@
               <img id="pic" src="images/m1.jpg" class="img-fluid" />
             </div>
             <div class="col-xl-5 col-lg-6 col-md-12 ps-lg-5">
-              <span>About Me</span>
+              <span class="line">About Me</span>
               <h2>Frontend developer</h2>
               <p>
                 "Meet Megha Singh, a driven BTech IT student in her fourth year
@@ -109,62 +113,79 @@
           <div class="row">
             <div class="col-sm-12">
               <div class="text-center">
-                <span>Projects</span>
-                <h2>On Web Development</h2>
+                <span>Project</span>
               </div>
             </div>
           </div>
           <div class="row service-cards">
-            <div class="col-lg-3 col-md-6 md-lg-9 mb-5">
+            <div class="col-lg-3 col-md-6 md-lg-9 mb-5 pt-4">
               <div class="card">
                 <img src="images/c1.jpeg" class="img-fluid" />
                 <div class="p-4">
-                  <h3>Web design</h3>
+                  <h3>Web Design</h3>
                   <p>
-                    Web design combines aesthetics and functionality to create
-                    visually engaging, user-friendly websites that enhance user
-                    experience.
+                    Web design focuses on creating visually appealing,
+                    user-friendly websites by balancing aesthetics,
+                    functionality, and responsiveness.
                   </p>
                 </div>
+                <a
+                  href="https://singhmegh.github.io/HAL/"
+                  id="btn1"
+                  class="btn btn-primary"
+                  >Click it</a
+                >
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 md-lg-9 mb-5">
+            <div class="col-lg-3 col-md-6 md-lg-9 mb-5 pt-4">
               <div class="card">
                 <img src="images/c2.jpeg" class="img-fluid" />
                 <div class="p-4">
-                  <h3>Coding</h3>
+                  <h3>CCD-Portal</h3>
                   <p>
-                    Coding involves writing instructions in programming
-                    languages to create and solve problems,and automate tasks
-                    efficiently and accurately.
+                    My portal website, designed by me, offers a sleek, intuitive
+                    interface with seamless navigation and functionality.
                   </p>
                 </div>
-            </div>
-            </div>
-            <div class="col-lg-3 col-md-6 md-lg-9 mb-5">
-              <div class="card">
-                <img src="images/c3.jpeg" class="img-fluid" />
-                <div class="p-4">
-                  <h3>Portals</h3>
-                  <p>
-                    Portals are web-based platforms offering centralized access
-                    to diverse resources, services, and information,
-                    facilitating efficient user interaction and management.
-                  </p>
-                </div>
+                <a
+                  href="https://singhmegh.github.io/Restaurant-cafe/"
+                  id="btn2"
+                  class="btn btn-primary"
+                  >Click it</a
+                >
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 md-lg-9 mb-5">
+            <div class="col-lg-3 col-md-6 md-lg-9 mb-5 pt-4">
               <div class="card">
                 <img src="images/c4.jpeg" class="img-fluid" />
                 <div class="p-4">
-                  <h3>Fun Games</h3>
+                  <h3>GitHub acc.</h3>
                   <p>
-                    A fun game with coding could involve creating a simple
-                    platformer where players design levels, characters, and
-                    interactions using code.
+                    My GitHub repo showcases my projects, featuring clean code,
+                    documentation, and collaborative contributions for
+                    open-source development.
                   </p>
                 </div>
+                <a
+                  href="http://github.com/singhmegh"
+                  id="btn3"
+                  class="btn btn-primary"
+                  >Click it</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 md-lg-9 mb-5 pt-4">
+              <div class="card">
+                <img src="images/c3.jpeg" class="img-fluid" />
+                <div class="p-4">
+                  <h3>Games with Code</h3>
+                  <p>
+                    Games with code involve programming mechanics, creating
+                    interactive experiences, and designing gameplay elements for
+                    engaging player experiences.
+                  </p>
+                </div>
+                <a href="#" id="btn4" class="btn btn-primary">Click it</a>
               </div>
             </div>
           </div>
@@ -179,7 +200,7 @@
           <div class="row">
             <div class="col-sm-12">
               <div class="text-center">
-                <span>Achievements</span>
+                <span class="line">Achievements</span>
               </div>
             </div>
           </div>
@@ -249,7 +270,7 @@
           <div class="row align-items-center">
             <div class="col-lg-7 offset-lg-3 col-md-10 offset-md-1 text-center">
               <!--offset property space dene ke kiye use hoti hai-->
-              <span>Contact Me </span>
+              <span class="line">Contact Me </span>
             </div>
             <div class="row g-3">
               <div class="col-sm-6">
@@ -281,9 +302,7 @@
               </div>
 
               <div class="col-12">
-                <label for="email" class="form-label"
-                  >Email <span class="text-muted"></span
-                ></label>
+                <label for="email" class="form-label">Email ></label>
                 <input
                   type="email"
                   class="form-control"
@@ -318,8 +337,8 @@
                 <label for="floatingTextarea2">Message</label>
               </div>
             </div>
-            <button class="main-btn style-1 mt-4">
-              <i class="fa-regular fa-file"> Send Message </i>
+            <button id="message" class="main-btn style-1 mt-4">
+              Send Message
             </button>
           </div>
         </div>
@@ -327,30 +346,33 @@
     </section>
 
     <!--Footer section-->
-   <footer id="footer">
-    <div class="footer py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <a href ="#" class = "footer-link">Register</a>
-            <a href ="#" class = "footer-link">Offers</a>
-            <a href ="#" class = "footer-link">Affillate</a>
-            <a href ="#" class = "footer-link">Join Team</a>
-            <div class="footer-social pt-4 text-center">
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
-              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-youtube"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <footer id="footer">
+      <div class="footer py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <div class="footer-social pt-4 text-center">
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/megha-singh-299566251"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <div>
+                  <div>
+                    <div class="col-sm-12">
+                      <div class="text-center pt-5">
+                        <div class="text-light">
+                          <p>© <span id="demo"></span> Made By Megha</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
           </div>
         </div>
       </div>
-    </div>
-  
- </footer>
-
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
