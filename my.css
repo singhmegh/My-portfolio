@@ -89,7 +89,7 @@ p {
   margin-bottom: 0;
   font-family: var(--secoundry-font);
 }
-span {
+.span {
   /*display: block;*/
   font-size: 2rem;
   font-weight: 600;
@@ -98,7 +98,7 @@ span {
   margin-bottom: 1.0714rem;
   position: relative;
 }
-span:after {
+.span:after {
   position: absolute;
   left: 0;
   bottom: -0.1429rem;
@@ -190,9 +190,9 @@ span:after {
 .navbar-brand:hover {
   color: var(--primary-color);
 }
-.navbar-nav {
+/* .navbar-nav {
   margin-left: 52%;
-}
+}*/
 
 /*styling of navbar*/
 .navigation-wrap.scroll-on {
